@@ -12,6 +12,9 @@
 
     <?= $content ?>
 
+    <!-- <?= debug(vendor\core\Db::$countSql) ?>
+    <?= debug(vendor\core\Db::$queries) ?> -->
+
     <script src="/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
