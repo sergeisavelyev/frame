@@ -18,6 +18,7 @@ class Main extends App
             'white' => 'белый',
             'black' => 'черный',
         ];
-        $this->set(compact('name', 'hi', 'colors'));
+        $title = 'PAGE TITLE';
+        $this->set(compact('name', 'hi', 'colors', 'title'));
     }
 }
